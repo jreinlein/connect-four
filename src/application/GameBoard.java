@@ -72,12 +72,14 @@ public class GameBoard {
 		for (int row = 0; row < numRows - winCondition + 2; row++) {
 			// go across columns on board
 			for (int col = 0; col < numCols; col++) {
+				boolean successful = true;
 				for (int shift = 0; shift < winCondition; shift++) {
 					if (board[row + shift][col] != playerNumber) {
+						successful = false;
 						break;
 					}
-					return true; // won't reach here if no match found
 				}
+				if (successful) return true;
 			}
 		}
 		// no vertical connections of the required length were found
@@ -93,17 +95,18 @@ public class GameBoard {
 	 *            Should be 1 or 2. 0 is used as an empty field.
 	 */
 	private boolean checkHorizontalWin(byte playerNumber) {
-		int connected = 0;
 		// going across the columns
 		for (int col = 0; col < numCols - winCondition + 2; col++) {
 			// going up the rows
 			for (int row = 0; row < numRows; row++) {
+				boolean successful = true;
 				for (int shift = 0; shift < winCondition; shift++) {
 					if (board[row][col + shift] != playerNumber) {
+						successful = false;
 						break;
 					}
-					return true; // won't reach here if no match found
 				}
+				if (successful) return true;
 			}
 		}
 		// no horizontal connections of required length were found
@@ -121,26 +124,30 @@ public class GameBoard {
 	private boolean checkDiagonalWin(byte playerNumber) {
 		// going up the rows
 		for (int row = 0; row < numRows - winCondition + 2; row++) {
-			// going across the columns
 			
 			// UP-RIGHT direction (going left to right across row)
 			for (int col = 0; col < numCols - winCondition + 2; col++) {
+				boolean successful = true;
 				for (int shift = 0; shift < winCondition; shift++) {
 					if (board[row + shift][col + shift] != playerNumber) {
+						successful = false;
 						break;
 					}
-					return true; // won't reach here if no match found
 				}
+				if (successful) return true;
 			}
+			
 			
 			//UP-LEFT direction (going right to left across row)
 			for (int col = numCols; col > numCols + winCondition - 2; col--) {
+				boolean successful = true;
 				for (int shift = 0; shift < winCondition; shift++) {
 					if (board[row + shift][col - shift] != playerNumber) {
+						successful = false;
 						break;
 					}
 				}
-				return true; // won't reach here if no match found
+				if (successful) return true;
 			}
 		}
 		// no successful connection was found if we reach this point
