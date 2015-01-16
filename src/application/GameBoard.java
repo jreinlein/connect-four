@@ -12,6 +12,13 @@ public class GameBoard {
 		board = new byte[numRows][numCols];
 	}
 
+	// constructor with custom size
+	public GameBoard(int numRows, int numCols) {
+		this.numRows = numRows;
+		this.numCols = numCols;
+		board = new byte[numRows][numCols];
+	}
+	
 	public int getNumRows() {
 		return numRows;
 	}
@@ -21,13 +28,7 @@ public class GameBoard {
 		return numCols;
 	}
 
-	// constructor with custom size
-	public GameBoard(int numRows, int numCols) {
-		this.numRows = numRows;
-		this.numCols = numCols;
-		board = new byte[numRows][numCols];
-	}
-
+	// TODO must be >= numRows and numCols
 	public void setWinCondition(int connectionNeeded) {
 		winCondition = connectionNeeded;
 	}
@@ -42,27 +43,18 @@ public class GameBoard {
 
 	// 0 = empty, 1 = player #1, 2 = player #2
 	public boolean checkVictory(byte playerNumber) {
-		int rowToStop = numRows;
-		// getting first empty row (from the bottom going up), this is where we can stop checking
-		outerLoop:
-		for (int row = 0; row < numRows; row++) {
-			for (int col = 0; col < numCols; col++) {
-				if (board[row][col] == playerNumber) {
-					rowToStop = row;
-					break outerLoop;
-				}
-			}
-		}
 
-		// VERTICAL ============================================
-		// game pieces have reached sufficient height to allow vertical victory
-		if (rowToStop >= winCondition - 1)
-			if (checkVerticalWin(playerNumber, rowToStop))
-				return true;
-
-		// HORIZONTAL ==========================================
-		if (checkHorizontalWin(playerNumber, rowToStop))
+		if (checkVerticalWin(playerNumber))
 			return true;
+
+		if (checkHorizontalWin(playerNumber))
+			return true;
+		
+		if (checkDiagonalWin(playerNumber))
+			return true;
+		
+		
+		
 
 		return false;
 	}
@@ -74,23 +66,18 @@ public class GameBoard {
 	 * 
 	 * @param playerNumber
 	 *            Should be 1 or 2. 0 is used as an empty field.
-	 * @param rowToStop
-	 *            First empty row (starting from bottom)
 	 */
-	private boolean checkVerticalWin(byte playerNumber, int rowToStop) {
-		int connected = 0;
+	private boolean checkVerticalWin(byte playerNumber) {
 		// go up rows
-		for (int row = 0; row < rowToStop - winCondition + 2; row++) {
+		for (int row = 0; row < numRows - winCondition + 2; row++) {
 			// go across columns on board
 			for (int col = 0; col < numCols; col++) {
-				// check if required # is all connected
-				for (int i = 0; i < winCondition; i++) {
-					if (board[row][col] == playerNumber)
-						connected++;
+				for (int shift = 0; shift < winCondition; shift++) {
+					if (board[row + shift][col] != playerNumber) {
+						break;
+					}
+					return true; // won't reach here if no match found
 				}
-				if (connected == winCondition)
-					return true;
-				connected = 0;
 			}
 		}
 		// no vertical connections of the required length were found
@@ -98,32 +85,65 @@ public class GameBoard {
 	}
 
 	/**
-	 * Used as a hlper method for checking victory. Looks at board and returns a
+	 * Used as a helper method for checking victory. Looks at board and returns a
 	 * boolean stating if the given player number has won with a horizontal
 	 * connection
 	 * 
 	 * @param playerNumber
 	 *            Should be 1 or 2. 0 is used as an empty field.
-	 * @param rowToStop
-	 *            First empty row (starting from bottom)
 	 */
-	private boolean checkHorizontalWin(byte playerNumber, int rowToStop) {
+	private boolean checkHorizontalWin(byte playerNumber) {
 		int connected = 0;
-		// going up the columns
+		// going across the columns
 		for (int col = 0; col < numCols - winCondition + 2; col++) {
-			// going across the row
-			for (int row = 0; row < rowToStop; row++) {
-				// check if required # of connections is present
-				for (int i = 0; i < winCondition; i++) {
-					if (board[row][col] == playerNumber)
-						connected++;
+			// going up the rows
+			for (int row = 0; row < numRows; row++) {
+				for (int shift = 0; shift < winCondition; shift++) {
+					if (board[row][col + shift] != playerNumber) {
+						break;
+					}
+					return true; // won't reach here if no match found
 				}
-				if (connected == winCondition)
-					return true;
-				connected = 0;
 			}
 		}
 		// no horizontal connections of required length were found
+		return false;
+	}
+	
+	/**
+	 * Used as a helper method for checking victory. Looks at board and returns a
+	 * boolean stating if the given player number has won with a diagonal
+	 * connection (checks both types of diagonals)
+	 * 
+	 * @param playerNumber
+	 *            Should be 1 or 2. 0 is used as an empty field.
+	 */
+	private boolean checkDiagonalWin(byte playerNumber) {
+		// going up the rows
+		for (int row = 0; row < numRows - winCondition + 2; row++) {
+			// going across the columns
+			
+			// UP-RIGHT direction (going left to right across row)
+			for (int col = 0; col < numCols - winCondition + 2; col++) {
+				for (int shift = 0; shift < winCondition; shift++) {
+					if (board[row + shift][col + shift] != playerNumber) {
+						break;
+					}
+					return true; // won't reach here if no match found
+				}
+			}
+			
+			//UP-LEFT direction (going right to left across row)
+			for (int col = numCols; col > numCols + winCondition - 2; col--) {
+				for (int shift = 0; shift < winCondition; shift++) {
+					if (board[row + shift][col - shift] != playerNumber) {
+						break;
+					}
+				}
+				return true; // won't reach here if no match found
+			}
+		}
+		// no successful connection was found if we reach this point
 		return false;
 	}
 }
