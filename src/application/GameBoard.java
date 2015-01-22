@@ -65,7 +65,14 @@ public class GameBoard {
 			playerTurn--;
 	}
 
-	// 0 = empty, 1 = player #1, 2 = player #2
+	/**
+	 * Checks if the given player has won, whether it be vertically, diagonally,
+	 * or horizontally.
+	 * 
+	 * @param playerNumber
+	 *            Should be either 1 or 2
+	 * @return True if that player has won
+	 */
 	public boolean checkVictory(byte playerNumber) {
 
 		if (checkVerticalWin(playerNumber))
@@ -73,7 +80,7 @@ public class GameBoard {
 
 		if (checkHorizontalWin(playerNumber))
 			return true;
-		
+
 		if (checkDiagonalWin(playerNumber))
 			return true;
 
