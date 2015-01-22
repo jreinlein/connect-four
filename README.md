@@ -1,5 +1,5 @@
 # connect-four
-:heavy_exclamation_mark: Work in Progress - Not functional yet. Stay tuned! 
+:heavy_exclamation_mark: Work in Progress - Not functional yet. The game logic has been implemented, but has to be connected to the GUI.
 
 ## Future Plans
 - Allow 2-player option
