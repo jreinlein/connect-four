@@ -42,7 +42,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -50,42 +50,42 @@
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -93,167 +93,167 @@
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" layoutX="68.0" layoutY="64.0" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Circle fill="#252525" layoutX="68.0" layoutY="64.0" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
             </Circle>
-            <Circle fill="#ab4242" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+            <Circle fill="#252525" radius="47.0" strokeType="INSIDE" strokeWidth="0.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
                <effect>
                   <InnerShadow offsetX="2.0" offsetY="2.0" />
                </effect>
